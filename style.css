@@ -10,13 +10,16 @@
     --color-black: hsl(0, 0%, 7%);
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html, body {
+html, 
+body {
     min-height: 100vh;
 }
 
@@ -30,11 +33,12 @@ body {
 
 .post-card {
     max-width: 24rem;
-    border: 2px solid var(--color-black);
+    border-left: 2px solid var(--color-black);
+    border-top: 2px solid var(--color-black);
     border-radius: 1.2rem;
     background-color: var(--color-white);
     box-shadow: 8px 8px var(--color-black);
-    
+    transition: all 0.4s ease;
 }
 
 .post-card:hover {
@@ -47,7 +51,8 @@ body {
     margin: 1.4rem 1.4rem 1.1rem 1.4rem;
 }
 
-.header, .post-content {
+.header, 
+.post-content {
     margin: 0 1.4rem;
     font-family: "Figtree", sans-serif;
 }
@@ -76,12 +81,15 @@ body {
     padding-block: 0.2rem;
 }
 
-.post-title a, .post-title a:link, .post-title a:visited {
+.post-title a, 
+.post-title a:link, 
+.post-title a:visited {
     text-decoration: none;
     color: var(--color-black);
 }
 
-.post-title a:hover, .post-title a:active {
+.post-title a:hover, 
+.post-title a:active {
     color: var(--color-yellow);
 }
 
@@ -125,11 +133,14 @@ body {
     text-decoration: none;
 }
 
-.attribution a:link, .attribution a:visited {
+.attribution a:link, 
+.attribution a:visited {
     color: var(--color-yellow);
+    transition: all 0.2s ease;
 }
 
-.attribution a:hover, .attribution a:active {
+.attribution a:hover, 
+.attribution a:active {
     color: var(--color-grey);
     font-size: 0.82rem;
 }

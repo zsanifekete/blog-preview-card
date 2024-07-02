@@ -1,0 +1,28 @@
+// COLORS
+$color-yellow: hsl(47, 88%, 63%);
+$color-white: hsl(0, 0%, 100%);
+$color-grey: hsl(0, 0%, 50%);
+$color-black: hsl(0, 0%, 7%);
+
+// FONTS
+$family: "Figtree", sans-serif;
+
+$size-category: 0.9rem;
+$size-date: 0.85rem;
+$size-title-desktop: 1.5rem;
+$size-title-mobile: 1.1rem;
+$size-description: 1rem;
+$size-name: 0.9rem;
+$size-attribution: 0.8rem;
+
+$weight-normal: 600;
+$weight-bolder: 800;
+
+// SHADOWS
+$shadow-card: 8px 8px 0 $color-black;
+$shadow-card-hover: 12px 12px 0 $color-black;
+
+// BORDER-RADIUS
+$radius-card: 1.2rem;
+$radius-img: 0.8rem;
+$radius-category: 0.3rem; 

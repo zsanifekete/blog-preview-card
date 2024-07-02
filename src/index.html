@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head> 
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Check out my solution for the Frontend Mentor Blog Preview Card challenge. This project demonstrates a responsive and visually appealing design using HTML, CSS and SCSS."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, blog preview card, responsive design, front-end development, HTML, CSS, SASS, Parcel, web development, coding challenge"
+    />
+    <meta name="author" content="Zsanett Fekete" />
+
+    <!-- OPEN GRAPH META TAGS -->
+    <meta property="og:title" content="Frontend Mentor | Blog preview card" />
+    <meta
+      property="og:description"
+      content="Check out my solution for the Frontend Mentor Blog Preview Card challenge. This project demonstrates a responsive and visually appealing design using HTML, CSS and SCSS."
+    />
+    <meta property="og:image" content="https://www.yourwebsite.com/images/screenshot-desktop.jpg" />
+    <meta property="og:url" content="https://your-website-url.com" />
+    <meta property="og:type" content="website" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="scss/main.scss" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main class="post-container">
+      <article class="post-card">
+        <!--<img
+          src="images/illustration-article.svg"
+          alt="Illustration HTML & CSS foundations image"
+          class="post-image"
+        />-->
+        <picture>
+          <source media="(max-width: 500px)" srcset="images/illustration-article-mobile.svg">
+          <img src="images/illustration-article-desktop.svg" alt="Illustration HTML & CSS foundations image" class="post-image">
+        </picture>
+
+        <header class="post-header">
+          <h2 class="post-category">Learning</h2>
+          <p class="post-date">
+            Published <time datetime="2023-12-21">21 Dec 2023</time>
+          </p>
+          <h1 class="post-title">HTML & CSS foundations</h1>
+        </header>
+
+        <div class="post-content-preview">
+          <p>
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </div>
+
+        <footer class="post-footer">
+          <img
+            src="images/image-avatar.webp"
+            alt="Greg Hooper"
+            class="author-image"
+          />
+          <h2 class="author-name">Greg Hooper</h2>
+        </footer>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        class="attribution-link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        title="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        rel="noopener"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        class="attribution-link"
+        href="https://github.com/zsanifekete/qr-code-component-challenge"
+        title="https://github.com/zsanifekete/qr-code-component-challenge"
+        target="_blank"
+        rel="noopener"
+        >ZsaniFekete</a
+      >.
+    </footer>
+  </body>
+</html>

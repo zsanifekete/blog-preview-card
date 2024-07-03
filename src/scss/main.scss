@@ -10,6 +10,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-weight: vars.$weight-normal;
+    padding-inline: 1.5rem;
     overflow: hidden;
     -ms-overflow-style: none; /* for Internet  Explorer and Edge */
     scrollbar-width: none; /* for Firefox */
@@ -28,7 +29,7 @@ body {
         max-width: 24rem;
         padding: 1.4rem 1.4rem 0.4rem 1.4rem;
         border-radius: vars.$radius-card;
-        border: 2px solid vars.$color-black;
+        border: 1px solid vars.$color-black;
         background-color: vars.$color-white;
         box-shadow: vars.$shadow-card;
         transition: all 0.4s ease;

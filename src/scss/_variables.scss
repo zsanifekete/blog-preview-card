@@ -10,10 +10,15 @@ $family: "Figtree", sans-serif;
 $size-category: 0.9rem;
 $size-date: 0.85rem;
 $size-title-desktop: 1.5rem;
-$size-title-mobile: 1.1rem;
 $size-description: 1rem;
 $size-name: 0.9rem;
-$size-attribution: 0.8rem;
+$size-attribution: 1rem;
+
+$size-title-mobile: 1.25rem;
+$size-category-mobile: 0.78rem;
+$size-date-mobile: 0.75rem;
+$size-description-mobile: 0.85rem;
+$size-attribution-mobile: 0.8rem;
 
 $weight-normal: 600;
 $weight-bolder: 800;
@@ -25,4 +30,7 @@ $shadow-card-hover: 12px 12px 0 $color-black;
 // BORDER-RADIUS
 $radius-card: 1.2rem;
 $radius-img: 0.8rem;
-$radius-category: 0.3rem; 
+$radius-category: 0.3rem;
+
+// MEDIA BREAKPOINT
+$breakpoint: 500px;

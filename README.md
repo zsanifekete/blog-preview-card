@@ -8,9 +8,9 @@
     <h3>
         <a href="https://blog-preview-card-zsani.netlify.app/" target="_blank" title="Live Site">Live</a>
         <span> | </span>
-        <a href="" target="_blank" title="Solution">Solution</a>
+        <a href="https://www.frontendmentor.io/solutions/blog-preview-card-kRx7VXvXx2#comment-6685bbe9983369c5335722c1" target="_blank" title="Solution">Solution</a>
         <span> | </span>
-        <a href="" target="_blank" title="Challenge">Challenge</a>
+        <a href="https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS" target="_blank" title="Challenge">Challenge</a>
     </h3>
 </div>
 

@@ -6,7 +6,7 @@
 
 <div align="center">
     <h3>
-        <a href="" target="_blank" title="Live Site">Live</a>
+        <a href="https://blog-preview-card-zsani.netlify.app/" target="_blank" title="Live Site">Live</a>
         <span> | </span>
         <a href="" target="_blank" title="Solution">Solution</a>
         <span> | </span>

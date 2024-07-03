@@ -37,7 +37,7 @@ body {
             box-shadow: vars.$shadow-card-hover;
         }
 
-        @media (max-width: 500px) {
+        @media (max-width: vars.$breakpoint) {
             max-width: 20.5rem;
         }
     }
@@ -51,6 +51,10 @@ body {
     &-header {
         margin: 1.3rem 0 1rem;
 
+        @media (max-width: vars.$breakpoint) {
+            margin: 1.4rem 0 1rem;
+        }
+
         .post {
             &-category {
                 font-size: vars.$size-category;
@@ -59,12 +63,20 @@ body {
                 padding: 6px 12px;
                 border-radius: vars.$radius-category;
                 display: inline-block;
+
+                @media (max-width: vars.$breakpoint) {
+                    font-size: vars.$size-category-mobile;
+                }
             }
 
             &-date {
                 font-size: vars.$size-date;
                 margin-block: 0.85rem 1.1rem;
                 word-spacing: 0.02px;
+
+                @media (max-width: vars.$breakpoint) {
+                    font-size: vars.$size-date-mobile;margin-block: 0.9rem 1.1rem;
+                }
             }
 
             &-title {
@@ -77,7 +89,7 @@ body {
                     color: vars.$color-yellow;
                 }
 
-                @media (max-width: 500px) {
+                @media (max-width: vars.$breakpoint) {
                     font-size: vars.$size-title-mobile;
                 }
             }
@@ -85,10 +97,17 @@ body {
     }
 
     &-content-preview {
-        margin-block: 1rem;
+        margin-block: 1rem 1.5rem;
         font-size: vars.$size-description;
         line-height: 1.5rem;
         color: vars.$color-grey;
+
+        @media (max-width: vars.$breakpoint) {
+            font-size: vars.$size-description-mobile;
+            margin-block: 0.9rem 1.5rem;
+            line-height: 1.3rem;
+            word-spacing: 1px;
+        }
     }
 
     &-footer {
@@ -115,6 +134,12 @@ body {
     position: absolute;
     bottom: 0;
     margin: 1rem;
+    text-align: center;
+    font-size: vars.$size-attribution;
+
+    @media (max-width: vars.$breakpoint) {
+        font-size: vars.$size-attribution-mobile;
+    }
 
     &-link {
         &:link,

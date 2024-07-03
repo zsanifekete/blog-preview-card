@@ -2,14 +2,13 @@
   "name": "blog-preview-card",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Frontend Mentor", "blog preview card", "responsive design", "front-end development", "HTML", "CSS", "SCSS", "Parcel", "web development", "coding challenge"],
+  "author": "Zsanett Fekete",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
     "parcel": "^2.12.0",

@@ -32,8 +32,8 @@ Users should be able to:
     <img src="https://skillicons.dev/icons?i=html" title="HTML" alt="HTML"/>
     <img src="https://skillicons.dev/icons?i=css" title="CSS" alt="CSS"/>
     <img src="https://skillicons.dev/icons?i=sass" title="SASS/SCSS" alt="SASS/SCSS"/>
-    <img src="https://skillicons.dev/icons?i=netlify" title="Netlify" alt="Netlify"/>
     <img src="src/images/parcel-icon.png" style="width: 4rem" title="Parcel" alt="Parcel"/>
+    <img src="https://skillicons.dev/icons?i=netlify" title="Netlify" alt="Netlify"/>
 </div>
 
 ### Features
@@ -58,7 +58,7 @@ Users should be able to:
 ## Mobile Version
 
 <div align="center">
-    <img src="src/screenshots/screenshot-mobile.png" height="800px" alt="Mobile screenshot" />
+    <img src="src/screenshots/screenshot-mobile.png" height="400px" alt="Mobile screenshot" />
 </div>
 
 ## Author

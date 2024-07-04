@@ -4,7 +4,8 @@
   "description": "A responsive blog preview card component challenge from Frontend Mentor",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [
     "Frontend Mentor",

@@ -2,7 +2,6 @@
   "name": "blog-preview-card",
   "version": "1.0.0",
   "description": "A responsive blog preview card component challenge from Frontend Mentor",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html"
